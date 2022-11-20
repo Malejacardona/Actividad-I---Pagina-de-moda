@@ -23,12 +23,41 @@
 #sectitulo .titulo1{
     color: rgb(88, 174, 181);
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #sectitulo .titulo2{
     color: #000;
-    font-size: 40px;
+    font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+
+/* Sección Mujer */
+#mujer{
+    background-color: rgba(229, 130, 191, 0.786);
+}
+#mujer .titulomujer{
+    text-align: center;
+    font-size: 31px;
+}
+.h3mujer{
+    font-size: 24px;
+}
+.card{
+    font-size: 50%;
+}
+.box{
+    width: 33%;
+    display: inline-block;
+}
+.card-title{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+}
+.card-text{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
 }
