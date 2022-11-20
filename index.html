@@ -5,48 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IntensaModa</title>
-  <style>
-    body{
-      background-color: hsl(66, 42%, 95%);
-    }
-    h1{
-      color: rgb(88, 174, 181);
-      text-align: center;
-      font-size: 80px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    p{
-      color: black;
-      text-align: justify;
-      font-size: 20px;
-      font-family: cursive;
-    }
-    h2,h3,h4,h5,h6{
-      color: black;
-      font-size: 40px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    a{
-      color: black;
-      font-size: 15px;
-      font-family: monospace;
-    }
-    a:hover{
-      color: rgb(253, 112, 12);
-    }
-    table,th,td,tr{
-      border: 2px solid black;
-      border-collapse: collapse;
-      padding: 10px;
-      color: black;
-      font-family: cursive;
-    }
-    li{
-      color: black;
-      font-family: cursive;
-    }
-  </style>
-
+  
   <!-- Se descarga la parte "compiled css and js" de esta página https://getbootstrap.com/docs/5.2/getting-started/download/ y se pega en la carpeta del proyecto las carpetas css y js -->
   <!-- Se copia la línea de "link" de CDN via jsdelivr del anterior link -->
   <!-- Referencia unos iconos, layout, contenido -->
@@ -59,35 +18,16 @@
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Para poner el logo en la parte del nombre de la pestaña, el logo debe estar en formato ICO, utilizar página de internet para pasar la imagen de PNG, JPG a ICO gratis -->
-  <link rel="stylesheet" href="/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/Images/logo-2.ico" type="image/x-icon">
 
   <!-- Kit de fontawesome -->
   <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- Link externo -->
-  <a href="https://www.desigual.com/es_CO/" target="_blank" rel="noopener noreferrer">Desigual</a>
-
-  <!-- Título -->
-  <h1>IntensaModa</h1>
-    
-  <!-- Texto de bienvenida -->
-  <h2>Bienvenidos</h2>
-  <p>
-    Disfruta la experiencia de vestirte según tu estado de animo, sin importar los actuales canones de belleza. ¡Expresate a través de tu ropa!
-  </p>
-
-  <!-- Video -->
-  <h3>Video Intensamente</h3>
-  <p>
-    Diviertete con este video introductorio sobre las emociones
-  </p>
-  <iframe width="900" height="506" src="https://www.youtube.com/embed/cB2CUdv_aHQ" title="''Intensamente'' Uso de las emociones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
   <!-- Barra de navegación -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-ligth p-3 bg-light" id="menu">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="Images/logo 2.png" alt="" class="logo" width="100px"></a>
+      <a class="navbar-brand" href="index.html"><img src="Images/logo 2.png" alt="" class="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -136,6 +76,9 @@
           </li>
           <!-- Redes sociales -->
           <li class="nav-item">
+            <a class="nav-link" href="https://www.desigual.com/es_CO/" target="_blank" rel="noopener noreferrer">Desigual</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
           </li>
           <li class="nav-item">
@@ -148,6 +91,15 @@
       </div>
     </div>
   </nav>
+
+  <!-- Titulo y video -->
+  <div class="row row-cols-1 row-cols-md-1 g-2 p-5 m-10 w-100" id="sectitulo">
+    <h1 class="titulo1">IntensaModa</h1>
+    <h2 class="titulo2">¡Expresate a través de tu ropa!</h2>
+    <iframe width="100" height="315" src="https://www.youtube.com/embed/U8YyiUkKZ88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+ 
     
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
