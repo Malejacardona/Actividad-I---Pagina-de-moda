@@ -70,3 +70,12 @@
     text-align: center;
     font-size: 31px;
 }
+
+/* Sección hombre */
+#hombre{
+    background-color: rgba(65, 65, 226, 0.915);
+}
+.titulohombre{
+    text-align: center;
+    font-size: 31px;
+}
