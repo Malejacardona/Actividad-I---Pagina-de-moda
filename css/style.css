@@ -45,7 +45,7 @@
     font-size: 24px;
 }
 .card{
-    font-size: 50%;
+    font-size:50%;
 }
 .box{
     width: 33%;
@@ -60,4 +60,13 @@
     color: #000;
     text-align: center;
     font-size: 18px;
+}
+
+/* Sección Niña */
+#niña{
+    background-color: rgba(171, 116, 222, 0.901);
+}
+.tituloniña{
+    text-align: center;
+    font-size: 31px;
 }
