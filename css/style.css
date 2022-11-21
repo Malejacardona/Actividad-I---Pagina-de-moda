@@ -79,3 +79,14 @@
     text-align: center;
     font-size: 31px;
 }
+
+/* Sección niño */
+#niño{
+    background-color: rgba(63, 197, 197, 0.923);
+}
+
+.tituloniño{
+    text-align: center;
+    font-size: 31px;
+}
+}
