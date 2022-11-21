@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 /* Barra de navegación */
 #menu{
     background-color: black !important;
@@ -19,6 +23,7 @@
 #sectitulo{
     background-color: rgba(239, 200, 244, 0.707);
     margin-top: 50px;
+    padding: 15px 15px;
 }
 #sectitulo .titulo1{
     color: rgb(88, 174, 181);
@@ -36,6 +41,7 @@
 /* Sección Mujer */
 #mujer{
     background-color: rgba(229, 130, 191, 0.786);
+    padding: 15px 15px;
 }
 #mujer .titulomujer{
     text-align: center;
@@ -45,7 +51,7 @@
     font-size: 24px;
 }
 .card{
-    font-size:50%;
+    font-size:100%;
 }
 .box{
     width: 33%;
@@ -65,6 +71,7 @@
 /* Sección Niña */
 #niña{
     background-color: rgba(171, 116, 222, 0.901);
+    padding: 15px 15px;
 }
 .tituloniña{
     text-align: center;
@@ -74,6 +81,7 @@
 /* Sección hombre */
 #hombre{
     background-color: rgba(65, 65, 226, 0.915);
+    padding: 15px 15px;
 }
 .titulohombre{
     text-align: center;
@@ -83,10 +91,9 @@
 /* Sección niño */
 #niño{
     background-color: rgba(63, 197, 197, 0.923);
+    padding: 15px 15px;
 }
-
 .tituloniño{
     text-align: center;
     font-size: 31px;
-}
 }
