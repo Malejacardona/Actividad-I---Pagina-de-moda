@@ -61,11 +61,28 @@
     color: #000;
     text-align: center;
     font-size: 18px;
+    margin-top: -10px;
 }
 .card-text{
     color: #000;
     text-align: center;
     font-size: 18px;
+    margin-top: -10px;
+}
+#vestidosmujer .h3mujer{
+    padding-top: 120px;
+}
+#pantalonesmujer .h3mujer{
+    padding-top: 120px;
+}
+#blusasmujer .h3mujer{
+    padding-top: 120px;
+}
+#ropainteriormujer .h3mujer{
+    padding-top: 120px;
+}
+.card-img-top{
+    height: 400px;
 }
 
 /* Sección Niña */
@@ -77,6 +94,15 @@
     text-align: center;
     font-size: 31px;
 }
+#vestidosniña .h3mujer{
+    padding-top: 120px;
+}
+#pantalonesniña .h3mujer{
+    padding-top: 120px;
+}
+#blusasniña .h3mujer{
+    padding-top: 120px;
+}
 
 /* Sección hombre */
 #hombre{
@@ -87,6 +113,12 @@
     text-align: center;
     font-size: 31px;
 }
+#pantaloneshombre .h3mujer{
+    padding-top: 120px;
+}
+#camisashombre .h3mujer{
+    padding-top: 120px;
+}
 
 /* Sección niño */
 #niño{
@@ -96,4 +128,10 @@
 .tituloniño{
     text-align: center;
     font-size: 31px;
+}
+#pantalonesniño .h3mujer{
+    padding-top: 120px;
+}
+#camisasniño .h3mujer{
+    padding-top: 120px;
 }
